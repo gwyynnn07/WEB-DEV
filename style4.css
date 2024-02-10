@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pupheader{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    color: maroon;
+    font-style: Times New Roman;
+    font-size: 20px;
+}
+
+.puheader{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: maroon;
+    font-style: Times New Roman;
+    font-size: 15px;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-right: 30px;
+    left: -17%;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	color: #000;
+}
+
+.bg{
+	width: 1600px;
+    height: 824px;
+    background: linear-gradient(to top, rgba(252, 250, 250, 0.644)50%,rgba(252, 250, 250, 0.644)50%);
+    border-radius: 50%;
+    position: absolute;
+    top: none;
+    left: none;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    clip-path: circle(500px at top margin-left 800px);
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body {
+    background-image: url('puplagoon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerbg{
+	width: 1600px;
+    height: 195px;
+    background: linear-gradient(to top, rgba(252, 250, 250, 0.644)50%,rgba(252, 250, 250, 0.644)50%);
+    border-radius: 50%;
+    position: absolute;
+    top: none;
+    left: none;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    clip-path: circle(500px at top margin-left 800px);
+}
+
+header .logo {
+    position: relative;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    top: 40%;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    top: 40%;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: maroon;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+header ul li a:hover:after {
+    width: 100%;
+}
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2
+{
+    color: #333;
+    font-size:  2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span
+{
+    color: maroon;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p
+{
+    color: black;
+}
+
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: maroon;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.sci {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 10px; 
+    transform: scale(0.6);
+}
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: maroon;
+    clip-path: circle(510px at right 800px);
+}
+
+.pupid img{
+	position: absolute;
+    float: left;
+    top: 28%;
+	left: 140%;
+	height: 500px;
+    width: 415px;
+    display: flex;
+    padding-right: 30px;
+    margin-top: 30px;
+    background-position: bottom;
+}
